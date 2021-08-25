@@ -1,17 +1,26 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<section id="contact" class="section section-gray wf-section">
+    <div class="w-container">
+        <div class="section-title-group">
+            <h2 class="section-heading centered">Contact Form</h2>
+            <div class="section-subheading center">Feel free to reach out!  Let's work on something together!</div>
+        </div>
+        <div class="form-wrapper squeezed w-form">
+            <form id="email-form" name="email-form" data-name="Email Form">
+                <div class="w-row">
+                    <div class="column-remove-padding w-col w-col-6"><input type="text" id="name-7" name="name-7" data-name="Name 7" placeholder="Name" maxlength="256" class="form-field w-input"></div>
+                    <div class="column-remove-padding w-col w-col-6"><input type="email" id="email-9" name="email-9" data-name="Email 9" placeholder="Email" maxlength="256" required="" class="form-field w-input"></div>
+                </div><textarea id="field-4" name="field-4" placeholder="Message" maxlength="5000" data-name="Field 4" class="form-field text-area w-input"></textarea><input type="submit" value="Send Message" data-wait="Please wait..." class="button full-width w-button">
+            </form>
+            <div class="success-message w-form-done">
+                <p class="paragraph-form">Thank you! Your submission has been received!</p>
+            </div>
+            <div class="success-message w-form-fail">
+                <p class="paragraph-form">Oops! Something went wrong while submitting the form :(</p>
+            </div>
+        </div>
+    </div>
+</section>

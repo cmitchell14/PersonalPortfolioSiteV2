@@ -24,22 +24,22 @@
             <div class="w-container"><img src="~/Content/CalebMitchellAlt-p-500.png" loading="lazy" width="550" sizes="(max-width: 767px) 96vw, (max-width: 991px) 550px, 329px" srcset="~/Content/CalebMitchellAlt-p-500.png 500w, ~/Content/CalebMitchellAlt.png 1100w" alt="" class="image-2"></div>
         </a>
         <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="#hero-overlay" class="nav-link w-nav-link">Home</a>
+            <a href="@Url.Action("Index","Home")" class="nav-link w-nav-link">Home</a>
             <a href="#about" class="nav-link w-nav-link">About</a>
             <a href="#gallery" class="nav-link w-nav-link">Portfolio</a>
-            <a href="#contact" class="nav-link w-nav-link">Contact</a>
+            <a href="@Url.Action("Contact","Contact")" id="contact" class="nav-link w-nav-link">Contact</a>
         </nav>
         <div class="hamburger-button w-nav-button">
             <div class="w-icon-nav-menu"></div>
         </div>
         <div class="social-footer w-hidden-medium w-hidden-small w-hidden-tiny">
-            <a href="#" class="social-icon-link w-inline-block"><img src="~/Content/social-03-white.svg" width="17" alt=""></a>
-            <a href="#" class="social-icon-link w-inline-block"><img src="~/Content/social-18-white.svg" width="17" alt=""></a>
-            <a href="#" class="social-icon-link w-inline-block"></a><img src="~/Content/social-30-white.svg" width="17" alt="">
+            <a href="https://www.facebook.com/caleb.mitchell.77582359" target="_blank" class="social-icon-link w-inline-block"><img src="~/Content/social-03-white.svg" width="17" alt=""></a>
+            <a href="https://twitter.com/calmitch14" target="_blank" class="social-icon-link w-inline-block"><img src="~/Content/social-18-white.svg" width="17" alt=""></a>
+            <a href="@Url.Action("Contact","Contact")" class="social-icon-link w-inline-block"><img src="~/Content/social-30-white.svg" width="17" alt=""></a>
+            @*<a href="#" class="social-icon-link w-inline-block"></a>
             <a href="#" class="social-icon-link w-inline-block"></a>
             <a href="#" class="social-icon-link w-inline-block"></a>
-            <a href="#" class="social-icon-link w-inline-block"></a>
-            <a href="#" class="social-icon-link w-inline-block"></a>
+            <a href="#" class="social-icon-link w-inline-block"></a>*@
         </div>
     </div>
     <div class="content">
@@ -50,28 +50,7 @@
             </div>
         </header>
          @RenderBody()
-        <section id="contact" class="section section-gray wf-section">
-            <div class="w-container">
-                <div class="section-title-group">
-                    <h2 class="section-heading centered">Contact Form</h2>
-                    <div class="section-subheading center">Feel free to reach out!  Let's work on something together!</div>
-                </div>
-                <div class="form-wrapper squeezed w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form">
-                        <div class="w-row">
-                            <div class="column-remove-padding w-col w-col-6"><input type="text" id="name-7" name="name-7" data-name="Name 7" placeholder="Name" maxlength="256" class="form-field w-input"></div>
-                            <div class="column-remove-padding w-col w-col-6"><input type="email" id="email-9" name="email-9" data-name="Email 9" placeholder="Email" maxlength="256" required="" class="form-field w-input"></div>
-                        </div><textarea id="field-4" name="field-4" placeholder="Message" maxlength="5000" data-name="Field 4" class="form-field text-area w-input"></textarea><input type="submit" value="Send Message" data-wait="Please wait..." class="button full-width w-button">
-                    </form>
-                    <div class="success-message w-form-done">
-                        <p class="paragraph-form">Thank you! Your submission has been received!</p>
-                    </div>
-                    <div class="success-message w-form-fail">
-                        <p class="paragraph-form">Oops! Something went wrong while submitting the form :(</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <footer class="footer center wf-section">
             <div class="w-container">
                 <div class="footer-text">&copy; @DateTime.Now.Year Caleb Mitchell</div>

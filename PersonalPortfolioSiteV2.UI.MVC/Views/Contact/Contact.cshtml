@@ -1,0 +1,70 @@
+﻿@model PersonalPortfolioSiteV2.UI.MVC.Models.ContactViewModel
+
+@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>Con2</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <section id="contact" class="section section-gray wf-section">
+        <div class="w-container">
+            <div class="section-title-group">
+                <h2 class="section-heading centered">Contact Form</h2>
+                <div class="section-subheading center">Feel free to reach out!  Let's work on something together!</div>
+            </div>
+            <div class="form-wrapper squeezed w-form">
+                <div class="w-row">
+                    <div class="column-remove-padding w-col w-col-6">
+                        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "column-remove-padding w-col w-col-6" })
+                        <div>
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-field w-input" } })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="column-remove-padding w-col w-col-6" id="name-7">
+                        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "column-remove-padding w-col w-col-6" })
+                        <div>
+                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-field w-input" } })
+                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="column-remove-padding w-col w-col-12">
+                        @Html.LabelFor(model => model.Subject, htmlAttributes: new { @class = "column-remove-padding w-col w-col-12" })
+                        <div>
+                            @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-field w-input" } })
+                            @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="column-remove-padding w-col w-col-12">
+                        @Html.LabelFor(model => model.Body, htmlAttributes: new { @class = "column-remove-padding w-col w-col-12" })
+                        <div>
+                            @Html.EditorFor(model => model.Body, new { htmlAttributes = new { @class = "form-field w-input" } })
+                            @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-8">
+                            <input type="submit" value="Send" class="button full-width w-button" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+@if (ViewBag.CustomerMessage != null)
+{
+    <h4>@Html.Raw(ViewBag.CustomerMessage)</h4>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

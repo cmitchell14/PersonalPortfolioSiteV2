@@ -1,12 +1,15 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Developing Web Developer";
 }
 <section id="feature-section" class="feature-section wf-section">
     <div class="flex-container w-container">
         <div id="about" class="feature-image-mask"><img src="~/Content/HireMe-p-500.jpeg" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 251.28125px, 25vw" srcset="~/Content/HireMe-p-500.jpeg 500w, ~/Content/HireMe-p-800.jpeg 800w, ~/Content/HireMe-p-1080.jpeg 1080w, ~/Content/HireMe-p-1600.jpeg 1600w, ~/Content/HireMe.jpg 1936w" alt="" class="feature-image"></div>
         <div>
             <h2>About Me</h2>
-            <p>This is a bunch of jibberish <strong>that will be about me.</strong>For now, Lorem ipsum will do. Cule dolce golga lora lorem ipsum. Cule dolce golga lora lorem ipsum. Cule dolce golga lora lorem ipsum. Cule dolce golga lora lorem ipsum.</p>
+            <p>
+                I’m a former Director of Operations turned Web Developer.  I’ve always had a desire to take on new challenges and be better than I was the day before.  Web development suits me well, because it gives me the ability to take on different challenges and use the creative, and complex, problem-solving techniques I’ve obtained through my previous work experience, and apply them to come up with solutions.  My background in management has taught me patience, approachability, and communication; traits that are vital when working in a team environment. 
+                
+            </p>
         </div>
     </div>
 </section>
@@ -14,10 +17,10 @@
     <div class="w-container">
         <div class="w-row">
             <div class="w-col w-col-8">
-                <h2 class="call-to-action-heading">Here you can put some text</h2>
+                <h2 class="call-to-action-heading">Let's Team Up!</h2>
             </div>
             <div class="align-right w-col w-col-4">
-                <a href="#" class="hollow-button white">Call To Action</a>
+                <a href="@Url.Action("Resume","Home")" class="hollow-button white">View My Resume</a>
             </div>
         </div>
     </div>

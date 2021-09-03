@@ -15,6 +15,10 @@ namespace PersonalPortfolioSiteV2.UI.MVC.Controllers
             return View();
         }
 
+        public ActionResult Resume()
+        {
+            return View();
+        }
 
     }
 }

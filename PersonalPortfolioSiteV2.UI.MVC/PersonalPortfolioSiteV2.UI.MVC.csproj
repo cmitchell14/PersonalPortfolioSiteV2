@@ -162,6 +162,7 @@
     <Content Include="Content\HireMe-p-500.jpeg" />
     <Content Include="Content\HireMe-p-800.jpeg" />
     <Content Include="Content\HireMe.jpg" />
+    <Content Include="Content\MyResume.JPG" />
     <Content Include="Content\NewCodeSnippet-p-2000.jpeg" />
     <Content Include="Content\NewCodeSnippet-p-500.jpeg" />
     <Content Include="Content\NewCodeSnippet-p-800.jpeg" />
@@ -227,6 +228,7 @@
     <Content Include="configs\AppSecretKeys.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\CalebMitchellResume.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -253,6 +255,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Contact\EmailConfirmation.cshtml" />
+    <Content Include="Views\Home\Resume.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -171,6 +171,7 @@
     <Content Include="Content\normalize.css" />
     <Content Include="Content\personalsiteproject.webflow.css" />
     <Content Include="Content\PolarBear_AboutUs.jpeg" />
+    <Content Include="Content\ResumePic.JPG" />
     <Content Include="Content\social-03-white.svg" />
     <Content Include="Content\social-18-white.svg" />
     <Content Include="Content\social-30-white.svg" />
@@ -231,6 +232,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Content\CalebMitchellResume.pdf" />
+    <Content Include="Content\CalebMitchellResumeIT.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

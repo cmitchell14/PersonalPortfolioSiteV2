@@ -3,7 +3,7 @@
 }
 <section id="feature-section" class="feature-section wf-section">
     <div class="flex-container w-container">
-        <div id="about" class="feature-image-mask"><img src="~/Content/HireMe-p-500.jpeg" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 251.28125px, 25vw" srcset="~/Content/HireMe-p-500.jpeg 500w, ~/Content/HireMe-p-800.jpeg 800w, ~/Content/HireMe-p-1080.jpeg 1080w, ~/Content/HireMe-p-1600.jpeg 1600w, ~/Content/HireMe.jpg 1936w" alt="" class="feature-image"></div>
+        <div id="about" class="aboutMe"><img src="~/Content/HireMe-p-500.jpeg" alt="" class="feature-image aboutImage"></div>
         <div>
             <h2>About Me</h2>
             <p>
@@ -32,31 +32,41 @@
             <div class="section-subheading center">Check out my latest projects</div>
         </div>
         <!--Fed1 Studio Project = Mock Training Website-->
-        <a href="http://fed1studioproject.c-mitchell.com/" target="_blank" class="grid-fours">
-            <img src="~/Content/PolarBear_AboutUs.jpeg" alt="Image of a Polar Bear" title="Wilderness Survivalists" />
-        </a>
-        <a href="https://github.com/cmitchell14/StoreFront.git" target="_blank" class="grid-fours">
-            <img src="~/Content/backsWithPacksLogo.png" alt="Backs with Pack Logo - Mock store front" title="Back with Packs">
-        </a>
-        @*<a href="#" class="grid-fours">
-            <img src="~/Content/2jEqzi01Ru2HBhGLTBgB_MG_5236-500px.jpg" alt="">
-        </a>
-        <a href="#" class="grid-fours">
-            <img src="~/Content/2c0343f7-500px.jpg" alt="">
-        </a>
-        <a href="#" class="grid-fours">
-            <img src="~/Content/3ae98ccd-500px.jpg" alt="">
-        </a>*@
+
+        <label id="galleryLabel">
+            <a href="http://fed1studioproject.c-mitchell.com/" target="_blank" class="grid-fours" id="galleryStyle">
+                <img src="~/Content/PolarBear_AboutUs.jpeg" alt="Image of a Polar Bear" title="Wilderness Survivalists" id="galleryPic" style="padding-bottom: 3px" />Survivalist Classes
+            </a>
+
+        <!--BACKS WITH PACKS STOREFRONT-->
+        </label>
+        <label id="galleryLabel">
+            <a href="http://storefront.c-mitchell.com/" target="_blank" class="grid-fours" id="galleryStyle">
+                <img src="~/Content/BacksWithPacksPortPic.jpg" alt="Backs with Pack Logo - Mock store front" title="Back with Packs" id="galleryPic" style="padding-bottom: 3px" />Mock Storefront
+            </a>
+        </label>
+
+        <!--REACT TODO APPLICATION-->
+        <label id="galleryLabel">
+            <a href="http://reacttodo.c-mitchell.com/" target="_blank" class="grid-fours" id="galleryStyle">
+                <img src="~/Content/ToDoHome.jpg" alt="Todo Home Page" title="Todo Home Page" id="galleryPic" style="padding-bottom: 3px" />React Todo App
+            </a>
+        </label>
+
+        <!--REACT API-->
+        <label id="galleryLabel">
+            <a href="http://api.c-mitchell.com/" target="_blank" class="grid-fours" id="galleryStyle">
+                <img src="~/Content/APITodo.jpg" alt="ToDo API home screen" title="Todo API" id="galleryPic" style="padding-bottom: 3px" />ToDo API
+            </a>
+        </label>
 
         <!--CSF Project = Dungeon Crawler-->
-        <a href="https://github.com/cmitchell14/DungeonApp.git" target="_blank" class="grid-fours">
-            <img src="~/Content/EscapadesOfTheElf.JPG" alt="Code Snippet of the Blunderous Escapades of the Elf" title="Escapades of the Elf" />
-        </a>
-        @*<a href="#" class="grid-fours w-inline-block w-lightbox">
-            <img src="~/Content/1w6iAjLXSHa5OYRSYAjd__MG_1162-500px.jpg" alt="">
-        </a>
-        <a href="#" class="grid-fours w-inline-block w-lightbox">
-            <img src="~/Content/4e769802-500px.jpg" alt="">
-        </a>*@
+        <label id="galleryLabel">
+            <a href="https://github.com/cmitchell14/DungeonApp.git" target="_blank" class="grid-fours" id="galleryStyle">
+                <img src="~/Content/EscapadesOfTheElf.JPG" alt="Code Snippet of the Blunderous Escapades of the Elf" title="Escapades of the Elf" id="galleryPic" style="padding-bottom: 3px" />Escapades of the Elf
+            </a>
+        </label>
+
+
     </div>
 </section>

@@ -353,3 +353,35 @@ td,
 th {
   padding: 0;
 }
+
+/*===============================================================================*/
+                           /*Portfolio Styling*/
+#galleryStyle {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 30%;
+    background-image: radial-gradient(circle at 50% 50%, rgba(200, 200, 200, .55), transparent);
+}
+
+#galleryLabel {
+    border-radius: 30%;
+}
+
+#galleryPic{
+    border-radius: 30%
+}
+
+.aboutMe {
+    max-width: 200%;
+    margin: auto;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 750px) {
+    .aboutMe {
+        max-width: 10em;
+    }
+}

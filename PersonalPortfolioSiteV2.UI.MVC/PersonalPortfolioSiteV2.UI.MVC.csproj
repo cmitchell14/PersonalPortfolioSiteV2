@@ -149,7 +149,9 @@
     <Content Include="Content\AboutSelf-p-500.jpeg" />
     <Content Include="Content\AboutSelf-p-800.jpeg" />
     <Content Include="Content\AboutSelf.jpg" />
+    <Content Include="Content\APITodo.jpg" />
     <Content Include="Content\backsWithPacksLogo.png" />
+    <Content Include="Content\BacksWithPacksPortPic.jpg" />
     <Content Include="Content\CalebMitchellAlt-p-500.png" />
     <Content Include="Content\CalebMitchellAlt.png" />
     <Content Include="Content\CodeSnippet-p-1080.jpeg" />
@@ -175,6 +177,7 @@
     <Content Include="Content\social-03-white.svg" />
     <Content Include="Content\social-18-white.svg" />
     <Content Include="Content\social-30-white.svg" />
+    <Content Include="Content\ToDoHome.jpg" />
     <Content Include="Content\webclip.png" />
     <Content Include="Content\webflow.css" />
     <Content Include="Content\webflow.js" />

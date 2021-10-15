@@ -338,8 +338,8 @@ p {
 }
 
 .grid-fours {
-  width: 25%;
-  padding: 10px;
+  width: 33%;
+  padding: 4px;
   float: left;
 }
 
@@ -445,8 +445,7 @@ p {
 }
 
 .feature-image {
-    width: 100%;
-    height: 100%;
+    width: 200%;
     -o-object-fit: contain;
     object-fit: contain;
     -o-object-position: 50% 50%;
@@ -549,7 +548,7 @@ p {
   }
 
   .grid-fours {
-    width: 33.333%;
+    width: 100%;
   }
 
   .column-0-padding {
@@ -605,5 +604,9 @@ p {
   .centered-container {
     text-align: left;
   }
+}
+
+#clear{
+    clear:both;
 }
 

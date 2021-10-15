@@ -1810,3 +1810,9 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
+@media only screen and (max-width: 750px) {
+    .galleryPhone {
+        max-width: 300%;
+    }
+}

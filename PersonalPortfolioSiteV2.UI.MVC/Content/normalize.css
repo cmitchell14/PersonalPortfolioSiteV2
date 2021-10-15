@@ -385,3 +385,47 @@ th {
         max-width: 10em;
     }
 }
+
+
+
+.peerImage {
+    background: white;
+    border-radius: 30%;
+    float: left;
+    width: 31%;
+    margin: .5em;
+    height: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+    .peerImage {
+        margin-left:2.75em;
+    }
+}
+
+.peerImage img {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 15em;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: .5em;
+}
+
+.teamText {
+    padding: 1.5em;
+    text-decoration: none;
+    color: #BC846B;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
